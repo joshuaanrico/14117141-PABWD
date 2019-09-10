@@ -1,0 +1,12 @@
+Jawaban Praktikum HTML 1.5
+
+1. Terjadi error pada kode <meta HTTP-EQUIV="REFRESH" content="0; url=/myweb/myurl">
+
+2. Yang terjadi adalah halaman web yang tadinya refresh berkali-kali tidak berhenti, 
+   jika sudah diganti maka halaman web hanya merefresh 5 kali
+
+3. Thread untuk membuat kolom
+   tbody untuk membuat baris
+   tr =	untuk membuat tabel row (kekanan)
+   th = mengubah tinggi tabel
+   td = mengisi tabel data (kekanan)
