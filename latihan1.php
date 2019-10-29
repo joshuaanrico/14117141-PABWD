@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Latihan 1</title>
+	<title>Koneksi Database MySQL</title>
 </head>
 <body>
+	<h1>Demo koneksi database MySQL</h1>
 	<?php 
-		function tukar (&$a,&$b){
-			$temp = $a;
-			$a = $b;
-			$b = $temp;
+		$conn = mysqli_connect("localhost","root","");
+		if ($conn) {
+			echo "OK";
+		}else{
+			echo "Server Not Connected";
 		}
-		$satu = 1;
-		$dua = 2;
-		echo "Variable sebelumnya : <br>";
-		echo "Variabel 1 : $satu <br>";
-		echo "Variabel 2 : $dua <br><br>";
-		tukar($satu,$dua);
-		echo "Variable setelah ditukar : <br>";
-		echo "Variabel 1 : $satu <br>";
-		echo "Variabel 2 : $dua <br>";
 	 ?>
 </body>
 </html>
